@@ -1,0 +1,15 @@
+# The build output (regenerated every time)
+_site/
+
+# The heavy dependencies folder (recreated via 'npm install')
+node_modules/
+
+# Local environment variables (API keys, secret tokens)
+.env
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# If you use the Eleventy Image plugin, ignore the cache
+.cache/
